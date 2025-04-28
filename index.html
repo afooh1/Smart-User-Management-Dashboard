@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Management Dashboard | CIBC </title>
+    <meta name="description" content="Advanced Staff management system with filtering, sorting, and search capabilities powered by DummyJSON API">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-money-bill"></i>
+                <h1>CIBC<span>Staff.ca</span></h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="users.html"><i class="fas fa-users"></i> Staffs</a></li>
+                    <li><a href="contact.html"><i class="fas fa-phone"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Smart User Management Dashboard</h2>
+                <p class="lead">Streamline your user data management with our modern, intuitive dashboard — powered by the DummyJSON API. Access, search, filter, and manage user information in real-time, all through a sleek interface designed for speed, simplicity, and control.</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <i class="fas fa-sliders-h"></i>
+                        <p>Enhanced Filter Controls</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-sort-alpha-down"></i>
+                        <p>Advanced Sort Options</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-search"></i>
+                        <p>Quick Search</p>
+                    </div>
+                </div>
+                <a href="users.html" class="btn btn-primary btn-lg">
+                    View Dashboard <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="hero-image">
+                <img src="https://globalnews.ca/wp-content/uploads/2021/09/CP134359621.jpg?quality=85&strip=all" alt="cibc">
+            </div>
+        </div>
+    </main>
+
+    <section class="info-section">
+        <div class="container">
+            <h3>Core Capabilities</h3>
+            <div class="info-cards">
+                <div class="info-card">
+                    <i class="fas fa-database"></i>
+                    <h4>Real API Data</h4>
+                    <p>Powered by DummyJSON’s extensive database featuring over 100 realistic user profiles</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-bolt"></i>
+                    <h4>Fast Performance</h4>
+                    <p>Crafted with modern JavaScript for seamless user experiences</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Fully Responsive</h4>
+                    <p>Fully responsive design for seamless use across desktops, tablets, and mobile devices.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <i class="fas fa-money-bill"></i>
+                <span>CIBC<span>Staff.ca</span></span>
+            </div>
+            <div class="footer-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                
+            </div>
+            <div class="footer-copy">
+                <p>&copy; <span id="year"></span> CIBCStaff.ca | Created by Babatunde Olatunde 8762753.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Update Present year in  the footer copywrite.
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
